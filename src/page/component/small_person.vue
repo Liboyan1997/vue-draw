@@ -21,11 +21,13 @@ export default {
   border-radius: 6.24px;
   padding-top: 3px;
   padding-bottom: 3px;
-  width: 96px;
+  width: 94px;
   height: 118px;
   background-color:white;
+  /* background-color: red; */
   font-size: 10px;
-  margin-bottom: 3px;
+  /* margin-bottom: 3px; */
+  margin: 0 3px 3px 3px;
   /* background-color: yellow; */
 }
 p{
@@ -46,7 +48,7 @@ p{
   height: 100px;
 }
 #con>div{
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 6.24px;
   margin-top: 3px;
   margin: 0 auto;

@@ -8,6 +8,7 @@ import home from '../page/home/index.vue'
 // import win from '../page/win.vue'
 import match from '../page/match.vue'
 import best from '../page/best.vue'
+import test from '../page/test.vue'
 
 Vue.use(Router)
 
@@ -17,6 +18,11 @@ export default new Router({
       path: '/home',
       name: 'home',
       component: home
+    },
+    {
+      path: '/test',
+      name: 'test',
+      component: test
     },
     {
       path: '/one',
